@@ -35,15 +35,15 @@
   
  <distributionManagement>
 	<repository>
-		<id>deployment</id>
+		<id>demo</id>
 		<name>Internal Releases</name>
-		<url>http://35.154.48.174:8081/nexus/content/repositories/releases/</url>
+		<url>http://52.66.77.23:8081/repository/vfrelease/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deployment</id>
+		<id>demo</id>
 		<name>Internal Releases</name>
-		<url>http://35.154.48.174:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://52.66.77.23:8081/repository/vfsnap/</url>
 	</snapshotRepository>
 
 </distributionManagement>
